@@ -1,0 +1,12 @@
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\D31D4050.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D31F3420.g.cs
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D31F3420.baml
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\D31D4050.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb

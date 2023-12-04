@@ -1,0 +1,13 @@
+C:\LEMON3_V41\D02D1050.dll
+C:\LEMON3_V41\D02D1050.pdb
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\Forms\D02F2080.baml
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\Templates\ControlTemplates.baml
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\Forms\D02F2080.g.cs
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050_MarkupCompile.cache
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.g.resources
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.Properties.Resources.resources
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.csproj.GenerateResource.Cache
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.dll.licenses
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.dll
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.pdb
+D:\ID\ID đang làm\251372\D02D1050.R410\D02D1050\obj\Debug\D02D1050.csprojResolveAssemblyReference.cache

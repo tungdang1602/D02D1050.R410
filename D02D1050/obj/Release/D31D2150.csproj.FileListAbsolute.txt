@@ -1,0 +1,47 @@
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Templates\ControlTemplates.baml
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2900.g.cs
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2901.g.cs
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2902.g.cs
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2903.g.cs
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.cache
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.lref
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2900.baml
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2901.baml
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2902.baml
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2903.baml
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.g.resources
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.dll.licenses
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.dll
+C:\Users\Administrator\Desktop\New folder\D31D2150.R410\D31D2150\obj\Release\D31D2150.pdb
+C:\LEMON3_V41\D31D2150.dll
+C:\LEMON3_V41\D31D2150.pdb
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.csprojResolveAssemblyReference.cache
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Templates\ControlTemplates.baml
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2900.g.cs
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2901.g.cs
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2902.g.cs
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2903.g.cs
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.cache
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.lref
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2900.baml
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2901.baml
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2902.baml
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2903.baml
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.g.resources
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.Properties.Resources.resources
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.csproj.GenerateResource.Cache
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.dll.licenses
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.dll
+d:\GitCode\LEMONCODE (4.10.00)\D31\D31D2150.R410\D31D2150\obj\Release\D31D2150.pdb
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\D31D2150.csprojResolveAssemblyReference.cache
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Templates\ControlTemplates.baml
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2900.g.cs
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2901.g.cs
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2902.g.cs
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Forms\D31F2903.g.cs
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\Forms\D35F2415.g.cs
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.cache
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\D31D2150_MarkupCompile.lref
+C:\Users\admin\Desktop\Work\D31D2150.R410\D31D2150\obj\Release\D31D2150.dll

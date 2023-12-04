@@ -1,0 +1,85 @@
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csprojResolveAssemblyReference.cache
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.baml
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.g.cs
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.g.cs
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.baml
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csproj.GenerateResource.Cache
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+D:\LEMONCODE 4.10\DA2\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csprojResolveAssemblyReference.cache
+d:\Work\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.baml
+d:\Work\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+d:\Work\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.g.cs
+d:\Work\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.g.cs
+d:\Work\DA2D1050\DA2D1050\obj\Debug\GeneratedInternalTypeHelper.g.cs
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+d:\Work\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.baml
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csproj.GenerateResource.Cache
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+d:\Work\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D26F1051.g.cs
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.g.cs
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.g.cs
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D26F5556.g.cs
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D26F1051.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D26F5556.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csproj.GenerateResource.Cache
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csprojResolveAssemblyReference.cache
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\test.baml
+D:\Work\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\test.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\D26F1051.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1010.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\D26F5556.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\TEST.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\D26F1051.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\DA2F1000.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\D26F5556.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\Forms\TEST.baml
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csproj.GenerateResource.Cache
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb
+D:\Work\WPF\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csprojResolveAssemblyReference.cache
+C:\LEMON3_V41\DA2D1050.dll
+C:\LEMON3_V41\DA2D1050.pdb
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Templates\ControlTemplates.baml
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D31F3420.g.cs
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.cache
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050_MarkupCompile.lref
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\Forms\D31F3420.baml
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.g.resources
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.Properties.Resources.resources
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll.licenses
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.dll
+C:\Users\Administrator\Desktop\New folder\DA2D1050\DA2D1050\obj\Debug\DA2D1050.pdb

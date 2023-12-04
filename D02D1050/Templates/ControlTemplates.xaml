@@ -1,0 +1,89 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:L3="clr-namespace:Lemon3.Controls.DevExp;assembly=D99D0451"
+                    xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid">
+
+    <!--AssetID-->
+    <ControlTemplate x:Key="AssetID_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="AssetID" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+                <dxg:GridColumn FieldName="AssetName" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+                <dxg:GridColumn FieldName="ObjectID" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="ObjectTypeID" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="ManagementObjID" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="ManagementObjTypeID" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False"/>
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+
+    <!--AssetID-->
+    <ControlTemplate x:Key="StatusID_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="StatusID" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+                <dxg:GridColumn FieldName="StatusName" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False"/>
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+
+    <ControlTemplate x:Key="AStatusID_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="AStatusID" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="AStatusName" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False"/>
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+    <!--AssetID-->
+    <ControlTemplate x:Key="ApprovalStatus_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="IsApproved" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="ApprovalStatus" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False"/>
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+
+    <!--MethodID-->
+    <ControlTemplate x:Key="MethodID_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="IGEMethodID" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+                <dxg:GridColumn FieldName="IGEMethodName" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False"/>
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+
+    <!--MethodID-->
+    <ControlTemplate x:Key="Period_Template">
+        <L3:L3GridControl x:Name="PART_GridControl">
+            <dxg:GridControl.Columns>
+                <dxg:GridColumn FieldName="Period" Header="Mã"  Width="auto"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains"/>
+                <dxg:GridColumn FieldName="Date" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="TranMonth" Header="Mã"  Width="110"  HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+                <dxg:GridColumn FieldName="TranYear" Header="Tên"  Width="240" HorizontalHeaderContentAlignment="Center" AutoFilterCondition="Contains" Visible="False"/>
+            </dxg:GridControl.Columns>
+            <dxg:GridControl.View>
+                <dxg:TableView AutoWidth="True" ShowColumnHeaders="True" ShowAutoFilterRow="True"  ShowVerticalLines="True" ShowHorizontalLines="True" ShowIndicator="False" />
+            </dxg:GridControl.View>
+        </L3:L3GridControl>
+    </ControlTemplate>
+
+</ResourceDictionary>

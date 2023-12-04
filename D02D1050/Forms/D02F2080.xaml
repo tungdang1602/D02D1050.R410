@@ -1,0 +1,213 @@
+﻿<L3:L3Page x:Class="D02D1050.D02F2080"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+          xmlns:L3="clr-namespace:Lemon3.Controls.DevExp;assembly=D99D0451"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"       
+      xmlns:dxe="http://schemas.devexpress.com/winfx/2008/xaml/editors"
+      xmlns:dxdo="http://schemas.devexpress.com/winfx/2008/xaml/docking"
+      xmlns:dxlc="http://schemas.devexpress.com/winfx/2008/xaml/layoutcontrol"
+      xmlns:dxb="http://schemas.devexpress.com/winfx/2008/xaml/bars"
+      xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core"
+      xmlns:dxgt="http://schemas.devexpress.com/winfx/2008/xaml/grid/themekeys"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      Height="680" Width="1152" Loaded="L3Page_Loaded"
+          
+        Title="Kế hoạch kiểm kê - D02F2080">
+
+
+    <L3:L3Page.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/D02D1050;component/Templates/ControlTemplates.xaml" />
+                <ResourceDictionary Source="/D99D0451;component/Templates/Lemon3Templates.xaml" />
+                <ResourceDictionary Source="/D99D0451;component/Styles/Lemon3Style.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </L3:L3Page.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <dxb:MainMenuControl x:Name="MainMenuControl01" Grid.Row="0">
+                <dxb:BarButtonItem x:Name="tsbAdd" Content="Thêm" ItemClick="tsbAdd_ItemClick"/>
+                <dxb:BarButtonItem x:Name="tsbEdit" Content="Sửa" ItemClick="tsbEdit_ItemClick"/>
+                <dxb:BarButtonItem x:Name="tsbDelete" Content="Xóa" ItemClick="tsbDelete_ItemClick"/>
+                <dxb:BarItemSeparator />
+                <dxb:BarButtonItem x:Name="tsbPrint" Content="In" ItemClick="tsbPrint_ItemClick"/>
+            </dxb:MainMenuControl>
+        </Grid>
+        <Grid Grid.Row="1">
+            <L3:L3DockLayoutManager x:Name="docLayoutMan" AllowDrop="False"  AllowMergingAutoHidePanels="False" Margin="0,0,10,0" >
+                <dxdo:LayoutGroup Orientation="Horizontal">
+                    <dxdo:LayoutPanel x:Name="grpInfo" Caption="Thông tin chung"  AllowClose="False" AllowFloat="False" AllowMove="False" AllowDrag="False" AllowDrop="False" Margin="5,5,0,5" ItemHeight="100" ItemWidth="1*">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <L3:L3Label x:Name="lblPlanCodeM" Content="Mã kế hoạch"  Grid.Column="0" Margin="5,5,5,0"/>
+                            <L3:L3TextEdit x:Name="txtPlanCodeM"  Grid.Column="1" Margin="0,5,0,0" />
+                            <L3:L3Label x:Name="lblApprovalStatus" Content="Trạng thái duyệt" Grid.Row="1" Grid.Column="0" Margin="5,5,0,0"/>
+                            <L3:L3LookUpEdit x:Name="tdbcApprovalStatus" Grid.Row="1" Grid.Column="1" Margin="0,5,0,0"
+			                        AutoPopulateColumns="False" AutoComplete="True" ImmediatePopup="True" IsFilterAllColumns="True"
+			                        PopupWidth="350" DisplayMember="ApprovalStatus" ValueMember="IsApproved"
+			                        PopupContentTemplate="{DynamicResource ApprovalStatus_Template}"/>
+                            <L3:L3SimpleButton x:Name="btnFilter" Grid.Row="1" Grid.Column="2" Content="Lọc" Width="100" Height="26" HorizontalAlignment="Right" Margin="0,5,5,0" Click="btnFilter_Click"/>
+
+                            <Grid Grid.Row="2" Grid.ColumnSpan="3" Margin="0,38,0,0">
+                                <L3:L3GridControl x:Name="tdbgM" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Margin="5">
+                                    <L3:L3GridControl.Resources>
+                                        <Style TargetType="{x:Type dxg:GridColumn}">
+                                            <Setter Property="HorizontalHeaderContentAlignment" Value="Center" />
+                                        </Style>
+                                    </L3:L3GridControl.Resources>
+                                    <dxg:GridControl.ContextMenu>
+                                        <ContextMenu Name="ContextMenu1">
+                                            <MenuItem Name="mnsAdd" Header="Thêm" Click="mnsAdd_Click"/>
+                                            <MenuItem Name="mnsEdit" Header="Sửa" Click="mnsEdit_Click" />
+                                            <MenuItem Name="mnsDelete" Header="Xóa" Click="mnsDelete_Click"/>
+                                            <Separator />
+                                            <MenuItem Name="mnsPrint" Header="In" Click="mnsPrint_Click"/>
+                                        </ContextMenu>
+                                    </dxg:GridControl.ContextMenu>
+
+                                    <dxg:GridControl.View>
+                                        <dxg:TableView  x:Name="tdbgMView" AllowPerPixelScrolling="True" FocusedRowChanged="tdbgMView_FocusedRowChanged" AllowEditing="False" MouseDoubleClick="tdbgMView_MouseDoubleClick"/>
+                                    </dxg:GridControl.View>
+                                    <dxg:GridColumn x:Name="COLM_BatchID" FieldName="BatchID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_PlanCode" FieldName="PlanCode" Header="Mã kế hoạch" ReadOnly="True" MinWidth="80" Width="80"/>
+                                    <dxg:GridColumn x:Name="COLM_StatusName" FieldName="StatusName" Header="Trạng thái thực hiện" ReadOnly="True" MinWidth="140"  />
+                                    <dxg:GridColumn x:Name="COLM_StatusID" FieldName="StatusID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_ApprovalStatus" FieldName="ApprovalStatus" Header="Trạng thái duyệt" ReadOnly="True" MinWidth="110" Width="110"/>
+                                    <dxg:GridColumn x:Name="COLM_AStatusID" FieldName="AStatusID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_ExecutionTime" FieldName="ExecutionTime" Header="Thời gian thực hiện" ReadOnly="True" MinWidth="140" Width="140"/>
+                                    <dxg:GridColumn x:Name="COLM_MethodID" FieldName="MethodID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_DateFrom" FieldName="DateFrom" MinWidth="80" Width="80" Visible="False" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:DateEditSettings HorizontalContentAlignment="Center" />
+                                        </dxg:GridColumn.EditSettings>
+                                    </dxg:GridColumn>
+                                    <dxg:GridColumn x:Name="COLM_AssetID" FieldName="AssetID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_AssetName" FieldName="AssetName" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_ObjectID" FieldName="ObjectID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_ObjectTypeID" FieldName="ObjectTypeID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_ManagementObjID" FieldName="ManagementObjID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_DateTo" FieldName="DateTo" MinWidth="80" Width="80" Visible="False" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <dxe:DateEditSettings HorizontalContentAlignment="Center" />
+                                        </dxg:GridColumn.EditSettings>
+                                    </dxg:GridColumn>
+                                    <dxg:GridColumn x:Name="COLM_ManagementObjTypeID" FieldName="ManagementObjID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLM_Notes" FieldName="ManagementObjID" Visible="False" />
+                                </L3:L3GridControl>
+
+                            </Grid>
+                        </Grid>
+                    </dxdo:LayoutPanel>
+                    <dxdo:LayoutPanel x:Name="grpDetail" Caption="Thông tin chi tiết"  AllowClose="False" AllowFloat="False" Margin="5" AllowMove="False" AllowDrag="False" AllowDrop="False" ItemHeight="*" ItemWidth="1.75*">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition  Width="auto"/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition  Width="auto"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+                                <RowDefinition Height="auto"/>
+
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <L3:L3Label x:Name="lblMethodID" Content="PP tạo mã"  Grid.Column="0" Margin="5,5,5,0"/>
+                            <L3:L3LookUpEdit x:Name="tdbcMethodID" Grid.Row="0" Grid.Column="1" Margin="0,5,0,0"
+			AutoPopulateColumns="False" AutoComplete="True" ImmediatePopup="True" IsFilterAllColumns="True"
+			PopupWidth="350" DisplayMember="IGEMethodName" ValueMember="IGEMethodID"
+			PopupContentTemplate="{DynamicResource MethodID_Template}" EditValueChanged="tdbcMethodID_EditValueChanged"/>
+                            <L3:L3Label x:Name="lblPlanCodeD" Content="Mã kế hoạch"  Grid.Column="2" Margin="5,5,5,0"/>
+                            <L3:L3TextEdit x:Name="txtPlanCodeD"  Grid.Column="3" Margin="0,5,0,0" />
+                            <L3:L3TextEdit x:Name="txtBatchID"  Grid.Column="3" Margin="0,5,0,0" Visibility="Hidden"/>
+                            <L3:L3Label x:Name="lblStatusID" Content="Trạng thái thực hiện"  Grid.Column="4" Margin="5,5,5,0"/>
+                            <L3:L3LookUpEdit x:Name="tdbcStatusID" Grid.Row="0" Grid.Column="5" Margin="0,5,5,0"
+			AutoPopulateColumns="False" AutoComplete="True" ImmediatePopup="True" IsFilterAllColumns="True"
+			PopupWidth="350" DisplayMember="StatusName" ValueMember="StatusID"
+			PopupContentTemplate="{DynamicResource StatusID_Template}"/>
+
+                            <L3:L3Label x:Name="lblApprovalID" Content="Trạng thái duyệt"  Grid.Column="0" Grid.Row="1" Margin="5,5,5,0"/>
+                            <L3:L3TextEdit x:Name="txtApprovalStatus" Grid.Row="1" Grid.Column="1" Margin="0,5,0,0" IsReadOnly="True"/>
+                            <L3:L3TextEdit x:Name="txtAStatusID" Grid.Row="1" Grid.Column="1" Margin="0,5,0,0" Visibility="Hidden"/>
+
+                            <L3:L3Label x:Name="lblDate" Content="Thời gian thực hiện"  Grid.Column="2" Grid.Row="1" Margin="5,5,5,0"/>
+                            <!--<L3:L3LookUpEdit x:Name="tdbcPeriodFrom" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Center"
+					AutoPopulateColumns="False"
+					ImmediatePopup="True" PopupWidth="150"
+					DisplayMember="Period" ValueMember="Period" 
+					PopupContentTemplate="{DynamicResource Period_Template}" EditValueChanged="tdbcPeriodFrom_EditValueChanged"/>-->
+                            <L3:L3DateEdit x:Name="dateDateFrom" Grid.Column="3" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Center"   EditValueChanged="dateDateFrom_EditValueChanged"/>
+
+                            <L3:L3Label x:Name="lblSpe" Content="--"  Grid.Column="4" Grid.Row="1" Margin="5,5,5,0" HorizontalAlignment="Center"/>
+                            <L3:L3DateEdit x:Name="dateDateTo" Grid.Column="5" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Center" Margin="0,0,5,0"  EditValueChanged="dateDateTo_EditValueChanged"/>
+                            <!--<L3:L3LookUpEdit x:Name="tdbcPeriodTo" Grid.Column="5" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Center"
+					AutoPopulateColumns="False"
+					ImmediatePopup="True" PopupWidth="150"
+					DisplayMember="Period" ValueMember="Period" 
+					PopupContentTemplate="{DynamicResource Period_Template}" EditValueChanged="tdbcPeriodTo_EditValueChanged"/>-->
+                            <L3:L3Label x:Name="lblDescription" Content="Diễn giải"  Grid.Column="0" Grid.Row="2" Margin="5,5,5,0"/>
+                            <L3:L3TextEdit x:Name="txtDescription" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="6" Margin="0,5,5,0" IsReadOnly="True"/>
+                            <Grid Grid.Row="3" Grid.ColumnSpan="6"  Margin="0,15,0,0">
+                                <L3:L3GridControl x:Name="tdbgD" AutoGenerateColumns="None" EnableSmartColumnsGeneration="True" Margin="5">
+                                    <L3:L3GridControl.Resources>
+                                        <Style TargetType="{x:Type dxg:GridColumn}">
+                                            <Setter Property="HorizontalHeaderContentAlignment" Value="Center"/>
+                                        </Style>
+                                    </L3:L3GridControl.Resources>
+                                    <dxg:GridControl.ContextMenu>
+                                        <ContextMenu Name="ContextMenu2">
+                                            <MenuItem Name="mnsExportToExcel" Header="Xuất Excel" Click="mnsExportToExcel_Click"/>
+                                        </ContextMenu>
+                                    </dxg:GridControl.ContextMenu>
+                                    <dxg:GridControl.View>
+                                        <dxg:TableView  x:Name="tdbgDView" AllowPerPixelScrolling="True"  CellValueChanged="tdbgD_CellValueChanged" AllowEditing="True" InitNewRow="tdbgDView_InitNewRow" />
+                                    </dxg:GridControl.View>
+                                    <dxg:GridColumn x:Name="COLD_Num" FieldName="Num" Header="STT" MinWidth="50" Width="50" ReadOnly="True" />
+                                    <dxg:GridColumn x:Name="COLD_AssetID" FieldName="AssetID" Header="Mã tài sản" MinWidth="110" Width="110" >
+                                        <dxg:GridColumn.EditSettings>
+                                            <L3:L3LookUpEditSettings x:Name="tdbdAssetID" AutoPopulateColumns="False" AutoComplete="True" PopupWidth="350"
+				                         ImmediatePopup="True" IsFilterAllColumns="True"
+				                         DisplayMember="AssetID" ValueMember="AssetID"
+				                         PopupContentTemplate="{DynamicResource AssetID_Template}" />
+                                        </dxg:GridColumn.EditSettings>
+                                    </dxg:GridColumn>
+                                    <dxg:GridColumn x:Name="COLD_AssetName" FieldName="AssetName" Header="Tên tài sản" MinWidth="140" Width="140" ReadOnly="True" />
+                                    <dxg:GridColumn x:Name="COLD_ObjectID" FieldName="ObjectID" Header="Bộ phận tiếp nhận" MinWidth="110" Width="110" ReadOnly="True" />
+                                    <dxg:GridColumn x:Name="COLD_ObjectTypeID" FieldName="ObjectTypeID" Visible="False" />
+                                    <dxg:GridColumn x:Name="COLD_ManagementObjID" FieldName="ManagementObjID" Header="Bộ phận quản lý"  ReadOnly="True"/>
+
+                                    <dxg:GridColumn x:Name="COLD_NotesU" FieldName="NotesU" Header="Ghi chú" />
+                                </L3:L3GridControl>
+                            </Grid>
+                        </Grid>
+                    </dxdo:LayoutPanel>
+                </dxdo:LayoutGroup>
+            </L3:L3DockLayoutManager>
+
+        </Grid>
+        <StackPanel  Grid.Row="2" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,5,10,5" VerticalAlignment="Center">
+            <L3:L3SimpleButton Name="btnSave" Content="Lưu"  Height="27" Width="100" Margin=" 0 0 5 0" HorizontalAlignment="Right" Click="btnSave_Click"/>
+            <L3:L3SimpleButton x:Name="btnNotSave" Content="Không lưu"  Width="120"  Margin=" 0 0 0 0" Height="27" VerticalAlignment="Center" HorizontalAlignment="Right" Click="btnNotSave_Click" />
+        </StackPanel>
+    </Grid>
+</L3:L3Page>
